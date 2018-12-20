@@ -33,3 +33,20 @@
 - [ ] Can I NAS one disk but not another?
 - [ ] Can I FTP or SSH into my file system?
 - [ ] Can I access my filesystem over the internet?
+- [x] Is Unraid an OS?
+
+## Things I Need to Research
+- [ ] Find some literature on this homelab stuff
+- [ ] RAID
+- [ ] VMs
+- [ ] Emby
+- [ ] Serviio
+- [ ] Tversity
+- [ ] Plex Linux
+- [ ] Plex Adult
+- [ ] Plex Documentary
+- [ ] Plex Reality
+- [ ] Flexible expansion
+- [ ] Parity drive
+- [ ] unRAID Array
+
