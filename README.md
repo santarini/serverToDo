@@ -26,3 +26,10 @@
 
 ## NAS Software
 - [ ] Read up on Unraid and Xpenolgoy
+
+## Questions
+- [ ] To what extent can I pair mismatched disks by brand, color, size?
+- [ ] Can I run one disk on 24/7 and another on an as needed basis?
+- [ ] Can I NAS one disk but not another?
+- [ ] Can I FTP or SSH into my file system?
+- [ ] Can I access my filesystem over the internet?
