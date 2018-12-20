@@ -14,9 +14,9 @@ I’m also sitting on:
 -	4 TB Western Digital Black HDD
 
 I’m envisioning the r710 doing 3 things:
-1.)	Plex media server
-2.)	NAS backup of all the files I’ve accumulated across my devices
-3.)	It’s going to run a Python script I built that gathers stock market data
+1. Plex media server
+2. NAS backup of all the files I’ve accumulated across my devices
+3. It’s going to run a Python script I built that gathers stock market data
 
 ## Server OS Setup
 - [ ] Get usable (~16 GB) flash drive
