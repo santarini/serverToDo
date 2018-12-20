@@ -56,6 +56,7 @@ I’m envisioning the r710 doing 3 things:
 
 
 ## Things I Need to Research
+- [ ] NAS
 - [ ] Find some literature on this homelab stuff
 - [ ] RAID
 - [ ] VMs
