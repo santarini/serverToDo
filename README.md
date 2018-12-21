@@ -113,3 +113,13 @@ Vultr is also good
 Several of them have $2.50/mo offerings too
 
 Also, if you need a static public IP, honestly running a VPN back from a cheapo VPS is probably cheaper and easier than getting one from your ISP
+
+##### I want to set up a build so that one disk contains all of my Plex data and that a second disk is dedicated to regularly executing python web scraping scripts that populate a database. Is unRAID the best option? Would I be able to use plex while Python scripts are executing simultaneously?
+
+well, all the cool kids do something like docker and then containerize each task
+that way if plex or the python scripts fail/cause problems it doesn't interrupt each other
+BryceTechToday at 10:32 PM
+cough cough ESXi
+Analog PotatoToday at 10:33 PM
+^ this
+I have ESXi running with 6 VMs, that way each task is separate
