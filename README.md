@@ -70,3 +70,6 @@ I’m envisioning the r710 doing 3 things:
 - [ ] Flexible expansion
 - [ ] Parity drive
 - [ ] unRAID Array
+- [ ] Server Name Indication
+- [ ] VPS
+- [ ] Static IP costs
