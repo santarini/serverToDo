@@ -76,6 +76,7 @@ I’m envisioning the r710 doing 3 things:
 - [ ] microk8s
 - [ ] kubernetes
 - [ ] Docker container
+- [ ] ESXi
 
 https://clients.ionswitch.com/cart.php?a=add&pid=13   code: 2018-BLACKFRIDAY512
 
