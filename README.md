@@ -88,9 +88,13 @@ Or obtain a static address from your service provider.
 ##### Do you know of any literature on this stuff you point me towards?
 
 As for the part about hosting at home, it would be different per ISP and situation, so no set documentation that I could recommend on that per se, but I can help answer questions to the best of my ability.
+
 My recommendation is that you use a software such as WHM / cPanel to do this. It's what I host some various websites with.
+
 The software costs me around $20/month.
+
 Per instance
+
 So I have a virtual machine running CentOS which has WHM / cPanel installed on it. Multiple websites run on this server but are sort of sandboxed so the websites are separate and the site owners can't access the other website's files, etc.
 
 
