@@ -77,6 +77,7 @@ I’m envisioning the r710 doing 3 things:
 - [ ] kubernetes
 - [ ] Docker container
 - [ ] ESXi
+- [ ] Hyper visor
 
 https://clients.ionswitch.com/cart.php?a=add&pid=13   code: 2018-BLACKFRIDAY512
 
