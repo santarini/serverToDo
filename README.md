@@ -45,27 +45,46 @@ These errors appeared on the LCD:
 In BIOS [you can view the system logs](https://www.dell.com/support/article/aw/en/awbsdt1/sln292270/poweredge-server-error-messages-in-system-event-log-and-how-they-can-be-viewed?lang=en) by pressing CTRL+E during system start to access the configuration utility.
 
 > Entry 46 of 46
+
 > Severity: Critical
+
 > Date and Time: Sun Dec 30 2018 08:26:44
+
 > Description:
+
 > ECC Uncorr Err: Memory sensor, uncorrectable ECC ( DIMM_B2 ) was asserted
+
 
 > Entry 37 of 46
+
 > Severity: Non-Recoverable
+
 > Date and Time: Sun Dec 30 2018 08:26:44
+
 > Description:
+
 > CPU Machine Chk: Processor sensor, transition to non-recoverable was asserted
 
+
 > Entry 36 of 46
+
 > Date and Time: Sun Dec 30 2018 06:39:02
+
 > Severity: Critical
+
 > Description:
+
 > ECC Uncorr Err: Memory sensor, uncorrectable ECC ( DIMM_B2 ) was asserted
 
+
 > Entry 16 of 46
+
 > Date and Time: Sun Dec 30 2018 05:20:07
+
 > Severity: Critical
+
 > Description:
+
 > CPU1 Status: Process sensor for CPU1, IERR was asserted
 
 ## To-Dos
