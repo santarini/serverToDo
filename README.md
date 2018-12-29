@@ -1,6 +1,8 @@
 # Server Setup
 
-https://www.dell.com/support/home/us/en/04/product-support/servicetag/ccmcxq1/research
+[Service Tag](https://www.dell.com/support/home/us/en/04/product-support/servicetag/ccmcxq1/research)
+
+[r710 Technical Manual](https://www.dell.com/downloads/global/products/pedge/en/server-poweredge-r710-tech-guidebook.pdf)
 
 ## About
 
