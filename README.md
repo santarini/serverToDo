@@ -147,6 +147,7 @@ CPU1 Status: Process sensor for CPU1, IERR was asserted
 - [ ] Docker container
 - [ ] ESXi
 - [ ] Hyper visor
+- [ ] Proxmox
 
 
 
