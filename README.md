@@ -148,6 +148,7 @@ CPU1 Status: Process sensor for CPU1, IERR was asserted
 - [ ] ESXi
 - [ ] Hyper visor
 - [ ] Proxmox
+- [ ] Access iDRAC remotely
 
 
 
