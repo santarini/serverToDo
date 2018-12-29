@@ -25,6 +25,21 @@ I’m envisioning the r710 doing 3 things:
 2. NAS backup of all the files I’ve accumulated across my devices
 3. It’s going to run a Python script I built that gathers stock market data
 
+### Update 12/28/18
+Successfully booted ESXi 6.7, got message saying:
+
+~~~
+Unsupported CPU: Intel family 0x06, model 0x1a, stepping 0x5
+Intel(R) Xeon(R) CPU E5520 @ 2.27GHz
+https://www.vmware.com/resources/compatibility/
+~~~
+
+[ESXi 6.0 U3 is compatible with r710](https://www.vmware.com/resources/compatibility/detail.php?deviceCategory=server&productid=3746)
+
+Successfully installed and got ESXi 6.0 running from White Toshiba Flash Drive.
+
+There is an internal USB 2.0 port.
+
 ### Update 12/29/18
 
 It turns out my r710 has a PERC 6/i RAID Controller that only supports physical disks up to 2TB. There is another RAID controller for the r710 called the PERC H700 that supports drives up to 4TB. That is a fat bummer and I wish I knew that earlier because basically all my 8TBs are useless for this project. I could probably use them for a detached NAS.
