@@ -1,5 +1,7 @@
 # Server Setup
 
+https://www.dell.com/support/home/us/en/04/product-support/servicetag/ccmcxq1/research
+
 ## About
 
 I have a Dell r710 that I bought a few years back and it currently gathers dust.
@@ -84,15 +86,19 @@ CPU1 Status: Process sensor for CPU1, IERR was asserted
 - [x] Configure server for BIOS/UEFI for bootable image 
 - [x] Install OS on HD
 
-### Server Error Fix
-- [x] Figure out DIMM type
+### Server DIMM Fix
+- [ ] Research DIMM errors
+- [x] Figure out DIMM type ( 2Rx4 )
 - [x] Figure out [DIMM install pattern](https://www.dell.com/downloads/global/products/pedge/en/server-pedge-installing-upgrading-memory-11g.pdf)
-- [ ] Purchase more DIMM
-- [ ] Install DIMM
+- [ ] Reseat DIMM B2
+- [ ] Let server run until it crashes.
 
-### Server Hardware Upgrade
-- [x] Figure out DIMM type
-- [ ] Figure out DIMM install pattern
+### Server CPU Fix
+- [ ] Research CPU errors
+- [x] Figure out CPU type
+- [ ] Let server run until it crashes.
+
+### Server DIMM Upgrade
 - [ ] Purchase more DIMM
 - [ ] Install DIMM
 
