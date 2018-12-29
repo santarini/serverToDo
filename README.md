@@ -1,5 +1,7 @@
 # Server Setup
 
+## About
+
 I have a Dell r710 that I bought a few years back and it currently gathers dust.
 
 I currently have a small like 500 GB HDD plugged into it. It’s currently running Debian.
@@ -10,6 +12,7 @@ I’d like to soup it.
 
 I’m also sitting on:
 -	8 TB Western Digital Gold HDD
+-	8 TB Western Digital Red HDD
 -	4 TB Western Digital Black HDD
 -	4 TB Western Digital Black HDD
 
@@ -18,22 +21,39 @@ I’m envisioning the r710 doing 3 things:
 2. NAS backup of all the files I’ve accumulated across my devices
 3. It’s going to run a Python script I built that gathers stock market data
 
-## Server OS Setup
-- [ ] Get usable (~16 GB) flash drive
-- [ ] Determine which OS to use
-- [ ] Download OS iso
-- [ ] Create bootable image of OS onto a flash drive
-- [ ] Swap out current HD for WD 8TB Gold
-- [ ] Configure server for BIOS/UEFI for bootable image 
-- [ ] Install OS on HD
+### Update 12/29/18
 
-## Server Hardware Upgrade
-- [ ] Figure out DIMM type
+It turns out my r710 has a PERC 6/i RAID Controller that only supports physical disks up to 2TB. There is another RAID controller for the r710 called the PERC H700 that supports drives up to 4TB. That is a fat bummer and I wish I knew that earlier because basically all my 8TBs are useless for this project. I could probably use them for a detached NAS.
+
+My alternatives:
+* Upgrade the RAID Controller and use 4TB WD Blacks that I have on hand.
+* Buy 2TB HDDs
+
+### Update 12/30/18
+
+I am hitting these ugly errors with my r710.
+* E1410 System Fatal Error detececd
+* E1422 CPU 2 machine check error. Power cycle AC
+* E2110 Multibit Error on DIMM B2. Reseat DIMM.
+
+## To-Dos
+
+### Server OS Setup
+- [x] Get usable (~16 GB) flash drive
+- [x] Determine which OS to use
+- [x] Download OS iso
+- [x] Create bootable image of OS onto a flash drive
+- [x] Swap out current HD for WD 8TB Gold
+- [x] Configure server for BIOS/UEFI for bootable image 
+- [x] Install OS on HD
+
+### Server Hardware Upgrade
+- [x] Figure out DIMM type
 - [ ] Figure out DIMM install pattern
 - [ ] Purchase more DIMM
 - [ ] Install DIMM
 
-## Backup all files
+### Backup all files
 - [ ] Get usable (~1 TB) backup disk
 - [ ] Purchase (~8 TB) Red NAS drive
 - [ ] Backup Dawson HDD
@@ -43,10 +63,10 @@ I’m envisioning the r710 doing 3 things:
 - [ ] Backup Kapua’s Old Macbook Pro
 
 
-## NAS Software
+### NAS Software
 - [ ] Read up on Unraid and Xpenolgoy
 
-## Questions
+### Questions
 - [ ] To what extent can I pair mismatched disks by brand, color, size?
 - [ ] Can I run one disk on 24/7 and another on an as needed basis?
 - [ ] Can I NAS one disk but not another?
@@ -55,7 +75,7 @@ I’m envisioning the r710 doing 3 things:
 - [x] Is Unraid an OS?
 
 
-## Things I Need to Research
+### Things I Need to Research
 - [ ] NAS
 - [ ] Find some literature on this homelab stuff
 - [ ] RAID
@@ -79,9 +99,11 @@ I’m envisioning the r710 doing 3 things:
 - [ ] ESXi
 - [ ] Hyper visor
 
-https://clients.ionswitch.com/cart.php?a=add&pid=13   code: 2018-BLACKFRIDAY512
 
-Discord discussions
+
+## Discord discussions
+
+https://clients.ionswitch.com/cart.php?a=add&pid=13   code: 2018-BLACKFRIDAY512
 
 ##### Can I host websites from a server at home?
 
