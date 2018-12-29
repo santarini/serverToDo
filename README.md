@@ -31,10 +31,44 @@ My alternatives:
 
 ### Update 12/30/18
 
-I am hitting these ugly errors with my r710.
+I woke up to my r710 stuck in the BIOs with an ugly error and 4 errors on the LCD.
+
+Memory write/read failure at 1E171100, read 00000000
+Expecting A5A5A5A5
+Decreasing available memory.
+
+These errors appeared on the LCD:
 * E1410 System Fatal Error detececd
 * E1422 CPU 2 machine check error. Power cycle AC
 * E2110 Multibit Error on DIMM B2. Reseat DIMM.
+
+In BIOS [you can view the system logs](https://www.dell.com/support/article/aw/en/awbsdt1/sln292270/poweredge-server-error-messages-in-system-event-log-and-how-they-can-be-viewed?lang=en) by pressing CTRL+E during system start to access the configuration utility.
+
+Entry 46 of 46
+Severity: Critical
+Date and Time: Sun Dec 30 2018 08:26:44
+Description:
+ECC Uncorr Err: Memory sensor, uncorrectable ECC ( DIMM_B2 ) was asserted
+
+Entry 37 of 46
+Severity: Non-Recoverable
+Date and Time: Sun Dec 30 2018 08:26:44
+Description:
+CPU Machine Chk: Processor sensor, transition to non-recoverable was asserted
+
+Entry 36 of 46
+Date and Time: Sun Dec 30 2018 06:39:02
+Severity: Critical
+Description:
+ECC Uncorr Err: Memory sensor, uncorrectable ECC ( DIMM_B2 ) was asserted
+
+Entry 16 of 46
+Date and Time: Sun Dec 30 2018 05:20:07
+Severity: Critical
+Description:
+CPU1 Status: Process sensor for CPU1, IERR was asserted
+
+
 
 ## To-Dos
 
@@ -46,6 +80,12 @@ I am hitting these ugly errors with my r710.
 - [x] Swap out current HD for WD 8TB Gold
 - [x] Configure server for BIOS/UEFI for bootable image 
 - [x] Install OS on HD
+
+### Server Error Fix
+- [x] Figure out DIMM type
+- [x] Figure out [DIMM install pattern](https://www.dell.com/downloads/global/products/pedge/en/server-pedge-installing-upgrading-memory-11g.pdf)
+- [ ] Purchase more DIMM
+- [ ] Install DIMM
 
 ### Server Hardware Upgrade
 - [x] Figure out DIMM type
@@ -101,7 +141,7 @@ I am hitting these ugly errors with my r710.
 
 
 
-## Discord discussions
+## Discord Discussion Notes
 
 https://clients.ionswitch.com/cart.php?a=add&pid=13   code: 2018-BLACKFRIDAY512
 
