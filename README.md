@@ -38,7 +38,15 @@ https://www.vmware.com/resources/compatibility/
 
 Successfully installed and got ESXi 6.0 running from White Toshiba Flash Drive.
 
-There is an internal USB 2.0 port.
+There is an internal USB 2.0 port where the USB should be moved to after all DIMM, CPU, and RAID has been configured.
+
+ESXi was installed using UEFI.
+
+HDDs are "PD".
+
+PDs need to be configured into "VDs".
+
+ESXi will recognize entire RAID arrays and not individual disks.
 
 ### Update 12/29/18
 
