@@ -100,6 +100,10 @@ Description:
 CPU1 Status: Process sensor for CPU1, IERR was asserted
 ~~~
 
+Update BIOS and iDRAC
+https://www.dell.com/community/PowerEdge-Hardware-General/Dell-T610-CPU1-Status-Processor-sensor-for-CPU1-IERR-was/td-p/4199935
+
+
 ## To-Dos
 
 ### Server OS Setup
