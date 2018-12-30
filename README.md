@@ -101,7 +101,12 @@ CPU1 Status: Process sensor for CPU1, IERR was asserted
 ~~~
 
 Update BIOS and iDRAC
+
 https://www.dell.com/community/PowerEdge-Hardware-General/Dell-T610-CPU1-Status-Processor-sensor-for-CPU1-IERR-was/td-p/4199935
+
+Switch out DIMM to see if it is faulty slot or DIMM
+
+https://www.dell.com/community/PowerEdge-Hardware-General/uncorrectable-ecc-memory-error/td-p/4263216
 
 
 ## To-Dos
