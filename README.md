@@ -230,3 +230,5 @@ I have ESXi running with 6 VMs, that way each task is separate
 https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6
 
 Here is another good link- just ignore the vCenter part: https://www.altaro.com/vmware/vsphere-home-lab-free/
+
+Plex/Tautulli, sab/sonarr/radarr, PiHole, wiki for notes, openVPN server, dedicated VM with Transmission and PIA VPN, win7 Media center for recording off two SiliconDust tuners, Guacamole, Ubiquiti NVR, Ubiquiti controller
